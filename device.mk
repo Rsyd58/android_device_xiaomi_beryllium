@@ -428,3 +428,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# ExternalStorageProvider Mod
+PRODUCT_PACKAGES += \
+    ExternalStorageProviderT
