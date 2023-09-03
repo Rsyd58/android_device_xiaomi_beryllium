@@ -27,7 +27,6 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/azure-clang
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # HIDL
