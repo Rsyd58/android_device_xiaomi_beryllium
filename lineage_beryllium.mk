@@ -8,8 +8,8 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
-LINEAGE_BUILDTYPE := RELEASE
+#LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+#LINEAGE_BUILDTYPE := RELEASE
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
