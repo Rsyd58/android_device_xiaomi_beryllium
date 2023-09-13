@@ -30,7 +30,6 @@ profiler.force_disable_ulog=1
 profiler.force_disable_err_rpt=1
 logcat.live=disable
 
-
 # Bluetooth
 ro.bluetooth.a2dp_offload.supported=true
 
@@ -66,7 +65,6 @@ ro.fastbootd.available=true
 
 # Graphics
 debug.sf.enable_hwc_vds=0
-debug.sf.latch_unsignaled=1
 persist.demo.hdmirotationlock=false
 persist.sys.sf.native_mode=0
 debug.sf.disable_backpressure=1
