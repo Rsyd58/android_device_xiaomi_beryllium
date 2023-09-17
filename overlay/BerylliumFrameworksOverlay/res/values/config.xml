@@ -1013,7 +1013,6 @@
 
     <!-- Stuff Cherish -->
     <bool name="config_supportSmartPixels">true</bool>
-    <bool name="config_supportsBoostFramework">true</bool>
     <bool name="config_smartChargingAvailable">true</bool>
     <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_smartChargingSuspendValue" translatable="false">1</string>
@@ -1022,7 +1021,5 @@
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
     <bool name="config_supportBatteryHealth">true</bool>
-    <bool name="config_defaultAutoContrast">true</bool>
-    <bool name="config_defaultAntiFlicker">true</bool>
     <bool name="config_pocketModeSupported">true</bool>
 </resources>

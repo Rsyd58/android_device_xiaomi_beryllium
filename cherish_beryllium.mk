@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 CHERISH_VANILLA := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_beryllium
@@ -36,4 +37,4 @@ PRODUCT_SYSTEM_NAME := beryllium
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Rsyd1997
+    ro.cherish.maintainer=Rsyd58×Syifa2209
