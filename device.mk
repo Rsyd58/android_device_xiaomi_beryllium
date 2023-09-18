@@ -431,3 +431,7 @@ PRODUCT_BOOT_JARS += \
 # ExternalStorageProvider Mod
 PRODUCT_PACKAGES += \
     ExternalStorageProviderT
+
+# LawnIcons
+PRODUCT_PACKAGES += \
+    LawnIcons
